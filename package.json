@@ -2,9 +2,9 @@
   "name": "nearley-ts-demo",
   "version": "1.0.0",
   "description": "",
-  "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nearleyc src/bracketexpr.ne > src/bracketexpr.ts && tsc",
+    "test": "npm run build && node build/index.js"
   },
   "author": "Colin Caine <colin.caine@manchester.ac.uk>",
   "license": "GPLv3",
