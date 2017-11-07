@@ -1,0 +1,16 @@
+{
+  "name": "nearley-ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin Caine <colin.caine@manchester.ac.uk>",
+  "license": "GPLv3",
+  "dependencies": {
+    "@types/nearley": "^2.11.0",
+    "nearley": "github:Hardmath123/nearley",
+    "typescript": "^2.6.1"
+  }
+}
